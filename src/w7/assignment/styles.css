@@ -107,22 +107,23 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin: 0px -15px 0px -15px;
-  column-gap: auto;
-  row-gap: auto;
+  font-size: 20px;
 }
 
 .category-list-item {
   display: flex;
   margin-bottom: 3rem;
   padding-right: 15px;
-  width: 740.391px;
+  width: 535px;
+  min-height: 115px;
+  position: relative;
 }
 
 .category-list-icon {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
-  width: 123.562px;
+  width: 85.17px;
 }
 
 .category-list-block {
