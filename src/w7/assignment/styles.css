@@ -12,6 +12,10 @@ body {
   padding: 0px 0px 16px;
 }
 
+.abstract-logo-mark {
+  font-weight: 700;
+}
+
 header {
   background-color: black;
   color: white;
@@ -103,6 +107,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin: 0px -15px 0px -15px;
+  column-gap: auto;
+  row-gap: auto;
 }
 
 .category-list-item {
@@ -166,4 +172,12 @@ header {
 
 .footer-column-copyright {
   display: block;
+  bottom: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  right: 0px;
+}
+
+.abstract-logo-footer {
+  margin-bottom: 20px;
 }
