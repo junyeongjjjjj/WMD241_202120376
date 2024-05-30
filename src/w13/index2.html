@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lottie Embeding</title>
+    <link rel="stylesheet" href="./style/style.style.css" />
+  </head>
+  <script
+    src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+    type="module"
+  ></script>
+  <script>
+    LottieInteractivity.create({
+      player: "#lottie-2",
+      mode: "cursor",
+      actions: [
+        {
+          type: "click",
+          forceFlag: false,
+        },
+      ],
+    });
+  </script>
+  <body>
+    <div class="section">
+      <div class="container">
+        <h1>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+          incidunt?
+        </h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
+          beatae obcaecati accusantium voluptate autem molestiae blanditiis,
+          error harum voluptas! Sint alias, minus voluptates sed odio, atque
+          deleniti odit unde quasi fuga fugiat nam in, numquam praesentium
+          sapiente. Fugit cum enim quo repellendus. Corrupti, ducimus omnis vero
+          fugit est porro sit?
+
+          <dotlottie-player
+            id="lottie-1"
+            class="lottie"
+            src="https://lottie.host/b95cdee4-e015-4fbb-b5fb-2c7733dbe02a/jhCkFAvyat.json"
+            background="transparent"
+            speed="0.3"
+            loop
+            autoplay
+          ></dotlottie-player>
+        </p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ipsa
+        odio minus. Fugit nihil facilis, ab voluptates et amet. Blanditiis.
+        <lottie-player
+          id="lottie-2"
+          class="lottie"
+          src="https://lottie.host/b95cdee4-e015-4fbb-b5fb-2c7733dbe02a/jhCkFAvyat.json"
+          background="transparent"
+          speed="0.3"
+        ></lottie-player>
+
+        >
+      </div>
+    </div>
+  </body>
+</html>

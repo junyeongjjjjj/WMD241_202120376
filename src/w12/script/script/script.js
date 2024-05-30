@@ -6,7 +6,7 @@ elemBody.style.backgroundColor = "#0000ff";
 //   aCard.classList.toggle("card--state-clicked");
 //   console.log(aCard.classList);
 // });
-let cards = document.querySelectorAll(".card");
+let cards = document.querySelectorall(".card");
 console.log(cards);
 for (let i = 0; i < cards.length; i++) {
   let eachCard = cards[i];
